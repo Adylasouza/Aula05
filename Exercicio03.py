@@ -4,6 +4,6 @@ arrayAlunos = ['Adyla','Marcos','Marrocos','Feijocos','Cheirosos']
 verificacao = input("Digite um nome: ")
 for x in range (len(arrayAlunos)):
     if verificacao == arrayAlunos[x]:
-        print(f"Nome {arrayAlunos[x]}, está na posição {y}")
+        print(f"Nome {arrayAlunos[x]}, está na posição {x}")
     else:
         print("Nome não se encontra na lista!!")
